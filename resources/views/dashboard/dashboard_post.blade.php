@@ -26,6 +26,13 @@
                 </div>
             @enderror
 
+            @error('img')
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    {{ $message }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            @enderror
+
             <a href="/dashboard/posts" class="btn btn-primary mb-3 d-block">Back</a>
             <form action="/dashboard/posts/{{ $post->slug }}" method="POST" class="mb-3">
                 <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"> 

@@ -45,7 +45,7 @@ class DashboardPostController extends Controller
             'body' => 'required',
             'slug' => 'required|unique:posts',
             'user_id' => 'required',
-            'img' => 'required|image'
+            'img' => 'required|image|file|max:6000'
         ]);
 
         $validateData['img'] = $request->file('img')->store('post_img', ['disk' => 'public']);
