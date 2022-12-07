@@ -64,7 +64,7 @@
                         @foreach ($reply_comment($pc->id) as $rc)
                             <div class="card mx-3 mb-1">
                                 <div class="card-body">
-                                    <h8 class="card-title">{{ auth()->user()->name }}</h8>
+                                    <h8 class="card-title">Admin</h8>
                                     <p class="card-text">{{ $rc->reply }}</p>
                                 </div>
                             </div>
