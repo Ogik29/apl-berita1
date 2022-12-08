@@ -25,7 +25,7 @@ class DatabaseSeeder extends Seeder
             'password' => bcrypt('sandi')
         ]);
 
-        Post::create([
+        /*  Post::create([
             'title' => 'Post 1',
             'user_id' => '1',
             'slug' => 'post-1',
@@ -44,6 +44,6 @@ class DatabaseSeeder extends Seeder
             'slug' => 'post-3',
             'user_id' => '1',
             'body' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam recusandae quas in, odio sequi cumque sit aut esse architecto soluta repellendus ab libero ipsa debitis est? Unde sequi illum provident! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore exercitationem eius omnis, perspiciatis autem sapiente ipsam expedita? Dolorum, ut quae. Voluptatum veritatis tenetur suscipit quisquam voluptate magni magnam repudiandae nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatibus adipisci non accusamus hic enim, blanditiis in amet dolores sint consequatur a voluptatum repellat, vel vero tempora repellendus eos eligendi?'
-        ]);
+        ]); */
     }
 }
